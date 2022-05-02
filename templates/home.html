@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CS 32 Final Project</title>
+</head>
+<body>
+    <h1>Using Flask to display Folium Maps</h1>
+    <div class='container'>
+        <ul class="Navigation">
+            <li><a href="{{ url_for('first_map_total') }}">First Map</a></li>
+            <li><a href="{{ url_for('second_map_total') }}">Second Map</a></li>
+            <li><a href="{{ url_for('third_map_total') }}">Third Map</a></li>
+            <li><a href="{{ url_for('fourth_map_total') }}">Fourth Map</a></li>
+            <li><a href="{{ url_for('fifth_map_total') }}">Fifth Map</a></li>
+            <li><a href="{{ url_for('sixth_map_total') }}">Sixth Map</a></li>
+            <li><a href="{{ url_for('seventh_map_total') }}">Seventh Map</a></li>
+            <li><a href="{{ url_for('heat_map_total') }}">Heat Map</a></li>
+        </ul>
+        </div>
+    <p> Below map 1</p>
+    <iframe class="map", src="/map0" width="600" height="600"></iframe>
+    <p> Below map 2</p>
+    <iframe class="map", src="/map1" width="600" height="600"></iframe>
+    <p> Below map 3</p>
+    <iframe class="map", src="/map2" width="600" height="600"></iframe>
+    <p> Below map 4</p>
+    <ifrmae class="map", src="/map3" width="600" height="600"></iframe>
+    <p> Below map 5</p>
+    <iframe class="map", src="/map4" width="600" height="600"></iframe>
+    <p> Below map 6</p>
+    <iframe class="map", src="/map5" width="600" height="600"></iframe>
+    <p>Below map 7</p> 
+    <iframe class="map", src="/map6" width="600" height="600"></iframe>
+    <p> Below a heat map with the weight as being the time I spend at each marker</p>
+    <iframe class="map", src="/heatmap" width="600" height="600"></iframe>
+</body>
+</html>
