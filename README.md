@@ -15,5 +15,4 @@ There will be 7 maps for each day, and a heatmap that has the time spent at each
 Thank you!
 And Enjoy!
 
-PS: Pretty sure I am going to take CS 171 on visualization next, because displaying data and making it somewhat interactive is so cooool.
 
